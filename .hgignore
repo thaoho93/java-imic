@@ -1,0 +1,4 @@
+syntax: glob
+.idea/
+target/
+helloworld2.iml
