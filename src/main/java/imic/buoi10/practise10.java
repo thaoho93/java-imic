@@ -55,6 +55,25 @@ public class practise10 {
         }
     }
 
+    public static void lietKeSNT(int f) {
+        System.out.println("Cac so nguyen nho hon n la ");
+        for (int g = 1; g < f; g++) {
+            int soUocf = 0;
+            for (int k = 1; k <= g; k++) {
+                if (g % k == 0) {
+                    soUocf++;
+                }
+            }
+            if (soUocf == 2) {
+                System.out.print(g + " ");
 
+
+            }
+        }
+    }
 }
+
+
+
+
 
